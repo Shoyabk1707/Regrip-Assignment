@@ -14,7 +14,7 @@ This is a simple, responsive weather dashboard application built with HTML, CSS,
    
 4. Use the search input to enter a city name and click the search button to fetch weather data.
 
-5. Or Simply visit : [click here'(https://shoyabk1707.github.io/Regrip-Assignment/)
+5. Or Simply visit : [click here](https://shoyabk1707.github.io/Regrip-Assignment/)
 
 ## Features
 - Search for weather information by city name.
