@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="wd"><center>Weather Dashboard</center></h1>
+        <div class="search">
+            <input type="text" placeholder="Enter city name" id="input-box" spellcheck="false" />
+            <button id="search-button"><img src="./Images/search.png" alt="Search"></button>
+        </div>
+
+        <div class="result-box">
+            <h2 class="city"></h2>
+            <img src="" class="weather-icon" alt="Weather Icon">
+            <h1 class="temp"></h1>
+            <div class="details">
+                <div class="col">
+                    <img src="./Images/humidity.png" alt="Humidity">
+                    <p class="humidity"></p>
+                    <p class="thin">Humidity</p>
+                </div>
+                <div class="col">
+                    <img src="./Images/wind.png" alt="Wind">
+                    <p class="wind"></p>
+                    <p class="thin">Wind</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="error" style="display: none;">
+            <p>Invalid city name</p>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/0bbe51d68f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
